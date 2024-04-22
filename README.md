@@ -87,9 +87,13 @@ vi build-container.yml
 
   ### 4. Commit changes to project repo
 
-  Push this new actions file to your repo on GitHub which depending on the branch you commit to will cause the workflow to be triggered:
+  Push this new actions file to your repo on GitHub, if the changes are pushed to the `master` or `dev` branch, the workflow will be triggered.
 
 ![Action Run](media/run.png)
+
+  Once the action completes, you can fine the docker image deployed to the GitHub container registry:
+
+![image deployed](media/imageDeploy.png)
 
 ### Anatomy of the workflow:
 
