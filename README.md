@@ -42,7 +42,7 @@ Building from [Lab2](https://github.com/iportilla/deployments/blob/main/lab2/REA
 
   ***Protip: Do this from a GitHub Codespace***
   
-  ### 1. Fork the Max-Object-Detector Repo (can clone but more work to commit changes)
+  ### 1. Fork the [Max-Object-Detector Repo](https://github.com/IBM/MAX-Object-Detector.git) (can clone but more work to commit changes)
 
 ![fork](media/fork.png)
 
