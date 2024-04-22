@@ -22,7 +22,7 @@
    - Systems thinking - How does what I do effect the larger system?
    - Shorter feedback cycles - Learn and fail faster
    - Culture of experimentation - Innovate
-3. Automated everything
+3. Automate everything
    - Continuous Integration / Continuous Deployment - CI/CD
    - Infrastructure as Code - Everything is immutable (once deployed) and idempotent including infrastructure and deplyment processes (**not just applications**)
    - Reduce toil - Make processes reproducable with a history of revision
@@ -136,6 +136,6 @@ jobs:
 
 ## Questions / Challenges
 
-* How do ensure our changes to the environment or image do not clobber other people changes?
+* How do we ensure our changes to the environment or image do not clobber other people changes?
 * What kind of controlls might we put in place to keep defects from being propagated to a production environment?
 * How do we ensure that the image tested is the same that gets deployed?  Hint: Do we propagate the code or the created image through our environments?
