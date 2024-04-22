@@ -129,9 +129,10 @@ jobs:
 ...              
 ```
 
-4. We've effectively created a CI/CD process at this point where our pipeline executes and creates a new Docker image anytime a change is committed (CI) to our repo.  That change is then deployed (CD) to an image repository.
+  ### 5. Action Complete  
+  We've effectively created a CI/CD process at this point where our pipeline executes and creates a new Docker image anytime a change is committed (CI) to our repo.  That change is then deployed (CD) to an image repository.
 
-    - In a real world production environment we would configure our containerization platform (Docker, Kubernetes, etc) to pull the new image from the repository anytime a new version is available.
+  - In a real world production environment we would configure our containerization platform (Docker, Kubernetes, etc) to pull the new image from the repository anytime a new version is available.
 
 ## Questions / Challenges
 
