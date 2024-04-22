@@ -75,6 +75,14 @@ mkdir workflows
 
   Copy the contents from [build-container.yml](./resource/build-container.yml) into a new file with the same name in the new workflow directory:
 
+  **If working from linux command line:**
+```bash
+cd workflows
+vi build-container.yml
+```
+
+  **From codespace / IDE:**
+
   ![Action .yml](media/action.png)
 
   ### 4. Commit changes to project repo
