@@ -133,9 +133,6 @@ jobs:
 
     - In a real world production environment we would configure our containerization platform (Docker, Kubernetes, etc) to pull the new image from the repository anytime a new version is available.
 
-### Commit Changes:
-Either through the IDE or codespace, commit the changes back to GitHub.  If the changes are committed back to the master or dev branch the action will execute.
-
 ## Questions / Challenges
 
 * How do ensure our changes to the environment or image dont clobber other people changes?
