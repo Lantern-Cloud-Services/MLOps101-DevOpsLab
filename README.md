@@ -66,7 +66,9 @@ cd MAX-Object-Detector
   Create new workflow directory:
 
 ```bash
-mkdir .github/workflows
+mkdir .github
+cd .github
+mkdir workflows
 ```
 
   ### 3. Create an actions file
