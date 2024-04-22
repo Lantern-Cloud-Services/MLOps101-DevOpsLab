@@ -6,7 +6,7 @@
 ## My Journey
 
 - B.S. Mathematics
-- Software Eningeering - Enterprise Java
+- Software Engineering - Enterprise Java
 - R&D - Cloud Native Architecture / Prototyping 
 - Leadership / Consulting - Cloud Native Architecture and Processes
   -  Developer tools / Platform Engineering
@@ -134,6 +134,6 @@ Either through the IDE or codespace, commit the changes back to GitHub.  If the 
 
 ## Questions / Challenges
 
-* How do ensure our changes to the environment or image dont clobber other people changes?
+* How do ensure our changes to the environment or image do not clobber other people changes?
 * What kind of controlls might we put in place to keep defects from being propagated to a production environment?
 * How do we ensure that the image tested is the same that gets deployed?  Hint: Do we propagate the code or the created image through our environments?
